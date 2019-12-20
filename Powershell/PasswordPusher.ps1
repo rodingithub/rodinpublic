@@ -21,19 +21,15 @@ Generates a random password with default settings.
 Pushes password "Passw0rd!" which will expire either after 14 days or 2 views, whichever comes sooner.
 .\Get-PasswordLink.ps1 -Password Passw0rd! -Expire 14 -Views 2
 #>
-[CmdletBinding()]
 
-Param(
-    [Parameter(Position=1,Mandatory=$true)]
-    [AllowEmptyString()]
-    [string]$Password,
-    
-    [ValidateRange(1,90)]
-    [string]$Expire = 3,
 
-    [ValidateRange(1,100)]
-    [string]$Views  = 1
-    )
+Add-Type -AssemblyName Microsoft.VisualBasic
+[string]$Password = [Microsoft.VisualBasic.Interaction]::InputBox("Enter a password", "Password", "")
+
+
+[string]$Expire = 7
+[string]$Views  = 1
+
 
 If (!$Password) {[string]$Password = (Get-Random)}
 
@@ -81,4 +77,8 @@ $Doc.getElementsByTagName("input") | ForEach-Object {
     }
 }
 
+while((Get-Clipboard) -ne $URL.value){
 Set-Clipboard -Value $URL.value
+[Microsoft.VisualBasic.Interaction]::MsgBox("Link copied to clipboard", "OKOnly", "Password")
+
+}
