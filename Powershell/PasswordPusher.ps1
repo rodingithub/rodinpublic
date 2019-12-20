@@ -6,7 +6,7 @@
 [string]$Views  = 1
 
 
-If (!$Password) {[string]$Password = (Get-Random)}
+If(!$Password) {[string]$Password = (Get-Random)}
 
 Write-Host "Using password: $Password"
 
@@ -20,9 +20,9 @@ $IE.Navigate($RequestURI)
 
 While ($IE.Busy) {Start-Sleep -Seconds 1}
 
-$Payload        = "password_payload"
-$ExpireID       = "password_expire_after_days"
-$ViewsID        = "password_expire_after_views"
+$Payload  = "password_payload"
+$ExpireID = "password_expire_after_days"
+$ViewsID = "password_expire_after_views"
 
 $Doc = $IE.Document
 $Doc.getElementsByTagName("input") | ForEach-Object {
@@ -36,9 +36,9 @@ $Doc.getElementsByTagName("input") | ForEach-Object {
     }
 }
 
-$Payload.value  =   $Password
-$ExpireID.value =   $Expire
-$ViewsID.value  =   $Views
+$Payload.value  = $Password
+$ExpireID.value = $Expire
+$ViewsID.value  = $Views
 #Start-sleep -Seconds 1
 $SubmitButton.click()
 
