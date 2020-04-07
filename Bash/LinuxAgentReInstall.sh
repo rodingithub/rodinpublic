@@ -10,7 +10,7 @@ else
 fi
 
 sleep 30
-rm -rd /tmp/ltech
+rm -rf /tmp/ltech
 mkdir /tmp/ltech
 wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=4
 unzip -o ./agent.zip
