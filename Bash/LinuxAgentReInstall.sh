@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /usr/local/ltechagent
-exec  "/usr/local/ltechagent/uninstaller.sh"
+./uninstaller.sh
 sleep 30
 mkdir /tmp/ltech
 cd /tmp/ltech
