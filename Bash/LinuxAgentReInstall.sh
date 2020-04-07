@@ -17,4 +17,5 @@ cd /tmp/ltech
 unzip -o agent.zip
 cd /tmp/ltech/LTechAgent
 chmod +x install.sh
-exec "/tmp/ltech/LTechAgent/install.sh"
+cd/tmp/ltech/LTechAgent
+./install.sh
