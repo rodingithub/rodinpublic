@@ -4,7 +4,7 @@ FILE=/usr/local/ltechagent/uninstaller.sh
 if [ -f "$FILE" ]; then
     echo "$FILE exists"
 	cd /usr/local/ltechagent
-	exec "/tmp/uninstaller.sh"
+	./uninstaller.sh
 else 
     echo "$FILE does not exist"
 fi
@@ -26,3 +26,5 @@ rm -rf /tmp/ltech"  > install.sh
 chmod +x install.sh
 exec "/tmp/install.sh"
 rm -rf /tmp/install.sh
+
+service ltechagent start
