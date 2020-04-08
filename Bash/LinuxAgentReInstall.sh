@@ -1,5 +1,7 @@
 #!/bin/bash
 
+service ltechagent stop
+
 FILE=/usr/local/ltechagent/uninstaller.sh
 if [ -f "$FILE" ]; then
     echo "$FILE exists"
