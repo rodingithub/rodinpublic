@@ -12,10 +12,11 @@ fi
 sleep 30
 rm -rf /tmp/ltech
 mkdir /tmp/ltech
-wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=4
+wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=3
 cd /tmp/ltech
 unzip -o agent.zip
 cd /tmp/ltech/LTechAgent
 chmod +x install.sh
 cd /tmp/ltech/LTechAgent
 ./install.sh
+rm -rf /tmp/ltech
