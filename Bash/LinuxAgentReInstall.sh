@@ -12,7 +12,7 @@ fi
 wget -O /tmp/install.sh https://raw.githubusercontent.com/rodingithub/rodinpublic/master/Bash/LinuxAgentReInstall.sh
 sleep 30
 
-
+cd /tmp
 echo "#!/bin/bash
 sleep 5
 rm -rf /tmp/ltech
