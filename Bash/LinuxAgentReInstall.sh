@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Pusae to make sure the old agent is retired from Automate.
+sleep 60
+
 service ltechagent stop
 
 FILE=/usr/local/ltechagent/uninstaller.sh
