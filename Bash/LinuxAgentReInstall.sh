@@ -14,13 +14,14 @@ sleep 30
 
 
 echo "#!/bin/bash
-sleep 30
+sleep 5
 rm -rf /tmp/ltech
 mkdir /tmp/ltech
 wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=3
 cd /tmp/ltech
 unzip -o agent.zip
 cd /tmp/ltech/LTechAgent
+./install.sh
 rm -rf /tmp/ltech"  > install.sh
 chmod +x install.sh
-exec "
+exec "/tmp/install.sh"
