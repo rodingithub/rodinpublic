@@ -12,7 +12,7 @@ else
 fi
 
 sleep 5
-
+rm -rf /tmp/install.sh
 cd /tmp
 echo "#!/bin/bash
 sleep 5
@@ -29,5 +29,3 @@ sleep 5
 service ltechagent start"  > install.sh
 chmod +x install.sh
 exec "/tmp/install.sh"
-sleep 30
-rm -rf /tmp/install.sh
