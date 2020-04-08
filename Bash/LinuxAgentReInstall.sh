@@ -10,7 +10,7 @@ else
 fi
 
 wget -O /tmp/install.sh https://raw.githubusercontent.com/rodingithub/rodinpublic/master/Bash/LinuxAgentReInstall.sh
-sleep 30
+sleep 5
 
 cd /tmp
 echo "#!/bin/bash
