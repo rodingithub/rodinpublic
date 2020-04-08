@@ -9,7 +9,7 @@ else
     echo "$FILE does not exist"
 fi
 
-sleep 30
+sleep 10
 rm -rf /tmp/ltech
 mkdir /tmp/ltech
 wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=3
