@@ -25,6 +25,7 @@ chmod +x install.sh
 rm -rf /tmp/ltech"  > install.sh
 chmod +x install.sh
 exec "/tmp/install.sh"
+sleep 30
 rm -rf /tmp/install.sh
 
 service ltechagent start
