@@ -20,3 +20,4 @@ chmod +x install.sh
 cd /tmp/ltech/LTechAgent
 ./install.sh
 rm -rf /tmp/ltech
+rm -rf /tmp/reinstall.sh
