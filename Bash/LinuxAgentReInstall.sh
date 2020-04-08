@@ -9,7 +9,6 @@ else
     echo "$FILE does not exist"
 fi
 
-wget -O /tmp/install.sh https://raw.githubusercontent.com/rodingithub/rodinpublic/master/Bash/LinuxAgentReInstall.sh
 sleep 5
 
 cd /tmp
@@ -17,10 +16,11 @@ echo "#!/bin/bash
 sleep 5
 rm -rf /tmp/ltech
 mkdir /tmp/ltech
-wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=3
+wget -O /tmp/ltech/agent.zip  https://automate.rodin.com.au/LabTech/Deployment.aspx?LINUX=4
 cd /tmp/ltech
 unzip -o agent.zip
 cd /tmp/ltech/LTechAgent
+chmod +x install.sh
 ./install.sh
 rm -rf /tmp/ltech"  > install.sh
 chmod +x install.sh
