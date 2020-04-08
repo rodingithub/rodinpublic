@@ -24,10 +24,10 @@ unzip -o agent.zip
 cd /tmp/ltech/LTechAgent
 chmod +x install.sh
 ./install.sh
-rm -rf /tmp/ltech"  > install.sh
+rm -rf /tmp/ltech
+sleep 5
+service ltechagent start"  > install.sh
 chmod +x install.sh
 exec "/tmp/install.sh"
 sleep 30
 rm -rf /tmp/install.sh
-
-service ltechagent start
