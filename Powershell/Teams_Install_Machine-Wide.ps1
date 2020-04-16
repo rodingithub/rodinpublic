@@ -51,7 +51,7 @@ param (
 
 function DoInstall {
 
-    $Installer = "$($SourcePath)\Teams_windows_x64.exe"
+    $Installer = "C:\TempInstall\Teams_windows.exe"
 
     If (!(Test-Path $Installer)) {
         throw "Unable to locate Microsoft Teams client installer at $($installer)"
