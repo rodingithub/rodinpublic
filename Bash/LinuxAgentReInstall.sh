@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pusae to make sure the old agent is retired from Automate.
-sleep 60
+sleep 15
 
 service ltechagent stop
 
