@@ -194,22 +194,6 @@
 		"min": 0,
 		"sec": 0
 	},
-	"tray_icon_path": "/Icon.aspx?ID=4486",
-	"tray_icon_md5": "3139464a7d80033b74f334a053a01e99",
-	"computer_edf": {
-		"Access Control": "Accessible",
-		"MacVncPassword": "CHANGETHISPASSWORD",
-		"One-time Reboot Delays": "0",
-		"Disable Sophos Central Auto Deployment": "0",
-		"Sophos Central Install Attempts": "0",
-		"Disable Windows Defender": "1",
-		"RODIN Vault Backup Allowance in GB": "500",
-		"Disable DHCP Scope Check": "0",
-		"Onboarding Complete": "1",
-		"Default Sensor Alert Template": "3",
-		"Generic Port Roles": "SSH-22tcp,  - 10/30/2018 12:00:33 AM",
-		"Under MSP Contract": "1"
-	},
 	"location_edf": {
 		"Enable Onboarding": "1",
 		"Patch Day Servers": "Not Selected",
@@ -231,16 +215,6 @@
 		"Servers Under Contract": "38",
 		"Disable Sophos Central Auto Deployment": "1",
 		"Disable PrinterCloud Auto Deployment": "1"
-	},
-	"client_edf": {
-		"Auto Deploy PrinterCloud": "1",
-		"Auto Deploy Sophos Central Endpoint": "1",
-		"Disable 7-Zip": "0",
-		"PrinterCloud Auth ID": "rlgb0ht8",
-		"PrinterCloud Portal URL": "https://rodintest.printercloud10.com",
-		"Servers Under Contract": "54",
-		"Sophos Central Endpoint Install URL": "https://dzr-api-amzn-us-west-2-fa88.api-upe.p.hmr.sophos.com/api/download/65f4efa3e723524c8c7c7f8dfc333878/SophosSetup.exe",
-		"Workstations Under Contract": "34"
 	},
 	"template_properties": {
 		"lt_newtunnels": "True",
