@@ -1,0 +1,249 @@
+{
+	"report_freq": 300,
+	"update_time": {
+		"day_of_week": "Everyday",
+		"hourly": 6,
+		"hour": 1,
+		"min": 0,
+		"sec": 0
+	},
+	"software_time": null,
+	"backup_time": {
+		"day_of_week": "Everyday",
+		"hourly": 12,
+		"hour": 1,
+		"min": 0,
+		"sec": 0
+	},
+	"patch_time": {
+		"day_of_week": "Everyday",
+		"hourly": 2,
+		"hour": 3,
+		"min": 0,
+		"sec": 0
+	},
+	"cache_dir": null,
+	"temp_dir": null,
+	"cache_patch": 1,
+	"cache_software": 1,
+	"cache_update": 0,
+	"allow_vnc_disable": 0,
+	"vnc_mode": 0,
+	"reboot_mode": 0,
+	"backup_server": null,
+	"backup_user": null,
+	"backup_pass": null,
+	"server_addresses": [
+		"https://automate.rodin.com.au",
+		"https://182.161.65.250"
+	],
+	"tray_text": "RODIN Support - 1300 138 762",
+	"support_url": null,
+	"show_ticket": 0,
+	"help_url": "http://www.rodin.com.au/support/",
+	"show_help": 1,
+	"custom_url": null,
+	"show_custom": 0,
+	"show_tray": 1,
+	"add_rem_desc": "RODIN Monitoring Service",
+	"debugging": 0,
+	"new_message_text": "New Message Received",
+	"new_rss_feed_text": null,
+	"enable_rss": 0,
+	"rss_feed_address1": null,
+	"rss_feed_address2": null,
+	"rss_feed_address3": null,
+	"rss_feed_address4": null,
+	"show_ticket_status": 0,
+	"balloon_tip_title_text": "Rodin Remote Support",
+	"vnc_connect_message": null,
+	"verify_lookup_email": 0,
+	"ticket_from_name": null,
+	"ticket_subject_name": null,
+	"tech_connected_title": "A Technician is Connected",
+	"system_message_title": "Rodin Remote Support Message",
+	"service_ticket_title": null,
+	"interrupt_user_with_chat": 0,
+	"new_tech_chat_message": null,
+	"chat_title": null,
+	"no_exit": 0,
+	"reg_edit_mode": 0,
+	"file_ex_mode": 0,
+	"screen_shot_mode": 0,
+	"window_update_mode": 0,
+	"restart_logoff_message": null,
+	"shutdown_message": null,
+	"file_exp_message": null,
+	"reg_exp_message": null,
+	"screen_shot_message": null,
+	"event_log_mode": 3,
+	"disable_powered_by": 1,
+	"proxy_server": null,
+	"proxy_username": null,
+	"proxy_password": null,
+	"cache_username": null,
+	"ssl_policy": 31,
+	"default_culture_code": null,
+	"heartbeat_enable": 1,
+	"heartbeat_server": "automate.rodin.com.au",
+	"heartbeat_port": 75,
+	"heartbeat_frequency": 5,
+	"heartbeat_noauth": 0,
+	"update_config": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 9,
+		"min": 0,
+		"sec": 0
+	},
+	"system_inv": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 4,
+		"min": 0,
+		"sec": 0
+	},
+	"drive_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 6,
+		"min": 15,
+		"sec": 0
+	},
+	"process_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 2,
+		"hour": 8,
+		"min": 0,
+		"sec": 0
+	},
+	"spyware_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 12,
+		"hour": 20,
+		"min": 0,
+		"sec": 0
+	},
+	"software_inv": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 21,
+		"min": 0,
+		"sec": 0
+	},
+	"event_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 2,
+		"hour": 6,
+		"min": 50,
+		"sec": 0
+	},
+	"printer_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 20,
+		"min": 0,
+		"sec": 0
+	},
+	"propagate": {
+		"day_of_week": "Everyday",
+		"hourly": 24,
+		"hour": 2,
+		"min": 0,
+		"sec": 0
+	},
+	"net_analysis": {
+		"day_of_week": "Sunday",
+		"hourly": 0,
+		"hour": 2,
+		"min": 0,
+		"sec": 0
+	},
+	"hot_fix_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 12,
+		"min": 30,
+		"sec": 0
+	},
+	"services_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 1,
+		"hour": 6,
+		"min": 0,
+		"sec": 0
+	},
+	"network_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 0,
+		"hour": 7,
+		"min": 0,
+		"sec": 0
+	},
+	"sysinfo_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 1,
+		"hour": 7,
+		"min": 0,
+		"sec": 0
+	},
+	"probe_scan": {
+		"day_of_week": "Everyday",
+		"hourly": 12,
+		"hour": 6,
+		"min": 0,
+		"sec": 0
+	},
+	"tray_icon_path": "/Icon.aspx?ID=4486",
+	"tray_icon_md5": "3139464a7d80033b74f334a053a01e99",
+	"computer_edf": {
+		"Access Control": "Accessible",
+		"MacVncPassword": "CHANGETHISPASSWORD",
+		"One-time Reboot Delays": "0",
+		"Disable Sophos Central Auto Deployment": "0",
+		"Sophos Central Install Attempts": "0",
+		"Disable Windows Defender": "1",
+		"RODIN Vault Backup Allowance in GB": "500",
+		"Disable DHCP Scope Check": "0",
+		"Onboarding Complete": "1",
+		"Default Sensor Alert Template": "3",
+		"Generic Port Roles": "SSH-22tcp,  - 10/30/2018 12:00:33 AM",
+		"Under MSP Contract": "1"
+	},
+	"location_edf": {
+		"Enable Onboarding": "1",
+		"Patch Day Servers": "Not Selected",
+		"Default Alert Template": "3",
+		"Patch Day Workstations": "Not Selected",
+		"2 - Patch Day SBS Role": "Not Selected",
+		"3 - Patch Day Domain Controller Role": "Not Selected",
+		"4 - Patch Day Exchange/MSSQL Roles": "Not Selected",
+		"Default Perf Alert Template": "3",
+		"Server Service Plan": "Managed 24x7",
+		"1 - Patch Day VM Host Role": "Not Selected",
+		"5 - Patch Day Other Window Server Roles": "Not Selected",
+		"Daytime Patch Missed Windows": "9999",
+		"Enable Patching Servers": "1",
+		"Enable Patching Workstations": "1",
+		"Workstation Service Plan": "Managed 8x5",
+		"Audit Plan": "None",
+		"Workstations Under Contract": "0",
+		"Servers Under Contract": "38",
+		"Disable Sophos Central Auto Deployment": "1",
+		"Disable PrinterCloud Auto Deployment": "1"
+	},
+	"client_edf": {
+		"Auto Deploy PrinterCloud": "1",
+		"Auto Deploy Sophos Central Endpoint": "1",
+		"Disable 7-Zip": "0",
+		"PrinterCloud Auth ID": "rlgb0ht8",
+		"PrinterCloud Portal URL": "https://rodintest.printercloud10.com",
+		"Servers Under Contract": "54",
+		"Sophos Central Endpoint Install URL": "https://dzr-api-amzn-us-west-2-fa88.api-upe.p.hmr.sophos.com/api/download/65f4efa3e723524c8c7c7f8dfc333878/SophosSetup.exe",
+		"Workstations Under Contract": "34"
+	},
+	"template_properties": {
+		"lt_newtunnels": "True",
+		"lt_nosensors": "True"
+	}
+}
