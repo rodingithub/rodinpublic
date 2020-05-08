@@ -30,6 +30,8 @@ chmod +x install.sh
 wget -O /usr/local/ltechagent/computer_config https://raw.githubusercontent.com/rodingithub/rodinpublic/master/Bash/computer_config
 rm -rf /tmp/ltech
 sleep 5
-service ltechagent start"  > install.sh
+service ltechagent start
+sleep 5
+service ltechagent restart"  > install.sh
 chmod +x install.sh
 exec "/tmp/install.sh"
