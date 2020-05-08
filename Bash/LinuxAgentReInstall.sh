@@ -27,6 +27,7 @@ unzip -o agent.zip
 cd /tmp/ltech/LTechAgent
 chmod +x install.sh
 ./install.sh
+wget -O /usr/local/ltechagent/computer_config https://raw.githubusercontent.com/rodingithub/rodinpublic/master/Bash/computer_config
 rm -rf /tmp/ltech
 sleep 5
 service ltechagent start"  > install.sh
